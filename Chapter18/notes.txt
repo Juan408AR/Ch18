@@ -1,0 +1,10 @@
+Factorial notes
+    + Factorial is... return n * factorial(n - 1)
+    where it can be seen as n * f(n-1) * f(n-2)...*f(n-k) * 1.
+    So it is pretty much a series: n *...f(n - k) * baseCase
+    ! Without a baseCase you create an infinite factorial
+    + You can have recursion where it is not local, so things like calling
+    another method which calls k method(s) and so on.
+    +Fibonacci...you start with 0 and 1, then fib(i - 1) + fib(i -2)...
+    +Recursion is good when it is the simplest solution but requires a lot of work
+    to be done since there is a lot of duplicates
